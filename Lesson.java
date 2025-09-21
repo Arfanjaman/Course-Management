@@ -12,7 +12,7 @@ public class Lesson implements CourseComponent {
     }
 
     @Override
-    public void showDetails() {
+    public void showDetailsfromMain() {
         System.out.println("Lesson: " + lessonName);
         System.out.println("  Duration: " + duration);
         System.out.println("  Instructor: " + instructorName);

@@ -27,7 +27,7 @@ public class CourseModule implements CourseComponent {
     }
     
     @Override
-    public void showDetails() {
+    public void showDetailsfromMain() {
         System.out.println("Module: " + moduleName);
         System.out.println("  Description: " + description);
         System.out.println("  Components:");
@@ -37,7 +37,7 @@ public class CourseModule implements CourseComponent {
         } else {
             for (CourseComponent component : components) {
                 System.out.print("    ");
-                component.showDetails();
+                component.showDetailsfromMain();
             }
         }
     }

@@ -42,7 +42,7 @@ public class Main {
         // Display all course details
         System.out.println("Course Structure and Details:");
         System.out.println("================================");
-        mainCourse.showDetails();
+        mainCourse.showDetailsfromMain();
         
         // Display summary statistics
         System.out.println("\nCourse Summary:");
