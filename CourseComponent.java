@@ -1,5 +1,5 @@
 
 public interface CourseComponent {
    
-    void showDetailsfromMain();
+    void showDetails();
 }
